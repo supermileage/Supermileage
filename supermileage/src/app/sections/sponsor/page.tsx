@@ -51,7 +51,7 @@ const Sponsors = () => {
                                         </p>
                                     </div>
                                     <div className="mt-4">
-                                        <a href="/2024-2025_Sponsor_Pack.pdf" className="btn btn-primary me-3" target="_blank" rel="noopener noreferrer">
+                                        <a href="/2025-2026_Sponsor_Pack.pdf" className="btn btn-primary me-3" target="_blank" rel="noopener noreferrer">
                                             View Sponsorship Package
                                         </a>
                                         <a href="mailto:info@supermileage.ca" className="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">
