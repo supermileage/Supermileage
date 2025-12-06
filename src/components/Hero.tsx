@@ -1,4 +1,5 @@
 // components/Hero.tsx
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,11 +10,13 @@ export default function Hero() {
         style={{ backgroundImage: "url('/media/images/fb_cover.jpg')" }}
       >
         <div className="absolute inset-0  bg-gradient-to-b from-black/100 via-black/50 to-transparent"></div>
-        <img
+        <Image
           src="/media/images/ubc-logo.svg"
           alt="UBC logo"
-          className="relative z-10"
-          style={{ height: "75px", marginBottom: "25px" }}
+          width={200}
+          height={75}
+          className="relative z-10 mb-6"
+          priority
         />
         <h1 className="relative z-10 text-6xl font-bold text-white drop-shadow-lg">
           SUPERMILEAGE

@@ -24,3 +24,15 @@ body {
 }
 
 /* Rest of your existing styles */ 
+
+@layer components {
+  .btn {
+    @apply inline-block px-6 py-2 rounded-lg font-semibold transition-colors duration-200 shadow hover:shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 cursor-pointer;
+  }
+  .btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500;
+  }
+  .btn-outline-secondary {
+    @apply border border-gray-400 text-gray-700 bg-white hover:bg-gray-100 focus:ring-gray-400;
+  }
+}

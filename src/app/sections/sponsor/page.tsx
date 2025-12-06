@@ -7,14 +7,12 @@ const Sponsors = () => {
         <div>
             <Title imageSrcPath="/media/images/contact.jpg" name="SPONSOR" />
             <section className="bg-white page-section py-10">
-                <div className="container">
-                    <div className="row mb-5">
-                        <div className="col-lg-12 text-center">
-                            <h2 className="section-heading text-uppercase mb-2">Sponsor Us</h2>
-                            <div className="mx-auto" style={{ width: 60, height: 4, background: "linear-gradient(90deg, #00c6ff, #0072ff)", borderRadius: 2 }} />
-                        </div>
+                <div className="max-w-4xl mx-auto px-4">
+                    <div className="mb-5 text-center">
+                        <h2 className="section-heading text-uppercase mb-2">Sponsor Us</h2>
+                        <div className="mx-auto" style={{ width: 60, height: 4, background: "linear-gradient(90deg, #00c6ff, #0072ff)", borderRadius: 2 }} />
                     </div>
-                    <div className="row g-4 align-items-stretch bg-white">
+                    <div className="flex flex-col md:flex-row gap-6 justify-center items-stretch bg-white">
                         {/* Become a Sponsor Card */}
                         {/* <div className="col-md-6">
                             <div className="card h-100 shadow-sm border-0">
@@ -38,9 +36,9 @@ const Sponsors = () => {
                             </div>
                         </div> */}
                         {/* Learn More Card */}
-                        <div className="col-md-6">
-                            <div className="card h-100 shadow-sm border-0">
-                                <div className="card-body d-flex flex-column justify-content-between">
+                        <div className="w-full md:w-1/2">
+                            <div className="card h-full shadow-sm border-0 flex flex-col justify-between">
+                                <div className="card-body flex flex-col justify-between h-full">
                                     <div>
                                         <h4 className="text-heading d-flex align-items-center mb-3">
                                             <FaLeaf className="me-2 text-success" /> Learn More
@@ -50,8 +48,8 @@ const Sponsors = () => {
                                             that your company is helping to support an sustainable Canadian student engineering project.
                                         </p>
                                     </div>
-                                    <div className="mt-4">
-                                        <a href="/2025-2026_Sponsor_Pack.pdf" className="btn btn-primary me-3" target="_blank" rel="noopener noreferrer">
+                                    <div className="mt-4 flex flex-col sm:flex-row gap-3 justify-center">
+                                        <a href="/2025-2026_Sponsor_Pack.pdf" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
                                             View Sponsorship Package
                                         </a>
                                         <a href="mailto:info@supermileage.ca" className="btn btn-outline-secondary" target="_blank" rel="noopener noreferrer">
@@ -66,23 +64,15 @@ const Sponsors = () => {
             </section>
 
             <section className="page-section py-10">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <h2 className="section-heading text-uppercase">Donate</h2>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <p className="text-muted">
-                                To support UBC Supermileage via a donation, visit <a
-                                href="https://donate.support.ubc.ca/page/20924/donate/1?transaction.dirgift=UBC+Supermileage+Team%20O961" 
-                                target="_blank" rel="noopener noreferrer">
-                                    this page
-                                </a> to start the process. All donations are greatly appreciated!
-                            </p>
-                        </div>
-                    </div>
+                <div className="max-w-2xl mx-auto px-4 text-center">
+                    <h2 className="section-heading text-uppercase mb-4">Donate</h2>
+                    <p className="text-muted">
+                        To support UBC Supermileage via a donation, visit <a
+                        href="https://donate.support.ubc.ca/page/20924/donate/1?transaction.dirgift=UBC+Supermileage+Team%20O961" 
+                        target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+                            this page
+                        </a> to start the process. All donations are greatly appreciated!
+                    </p>
                 </div>
             </section>
             <Footer />
