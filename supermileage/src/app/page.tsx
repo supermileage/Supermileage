@@ -1,8 +1,8 @@
-import Footer from "tsx/Footer";
-import Hero from "tsx/Hero";
-import About from "tsx/About";
-import Cars from "tsx/Cars";
-import Sponsors from "tsx/Sponsors";
+import Footer from "components/Footer";
+import Hero from "components/Hero";
+import About from "components/About";
+import Cars from "components/Cars";
+import Sponsors from "components/Sponsors";
 
 
 export default function Home() {

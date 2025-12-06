@@ -1,16 +1,16 @@
 export default function Results() {
     return (
-      <section className="bg-white page-section">
-        <div className="container">
-          <div className="row mb-4">
-            <div className="col-lg-12">
-              <h2 className="section-heading text-uppercase">Results</h2>
+      <section className="bg-white py-10">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap mb-4">
+            <div className="w-full">
+              <h2 className="text-4xl font-bold uppercase text-center">Results</h2>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-6">
-              <h2 className="text-heading mb-3">Prototype Class</h2>
-              <table className="table table-bordered">
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
+              <h2 className="text-2xl font-bold mb-3">Prototype Class</h2>
+              <table className="table-bordered">
                 <tbody>
                   <tr><td>YEAR</td><td>COMPETITION</td><td>CATEGORY</td><td>RANK</td><td>MILEAGE</td></tr>
                   <tr><td>2022</td><td>SAE</td><td>Gasoline</td><td>2nd</td><td>1038 mpg</td></tr>
@@ -38,9 +38,9 @@ export default function Results() {
                 </tbody>
               </table>
             </div>
-            <div className="col-md-6">
-              <h2 className="text-heading mb-3">Urban Concept</h2>
-              <table className="table table-bordered">
+            <div className="w-full md:w-1/2 px-4">
+              <h2 className="text-2xl font-bold mb-3">Urban Concept</h2>
+              <table className="table-bordered">
                 <tbody>
                   <tr><td>YEAR</td><td>COMPETITION</td><td>CATEGORY</td><td>RANK</td><td>MILEAGE</td></tr>
                   <tr><td>2022</td><td>SEMA</td><td>Battery Electric</td><td>DNF</td><td>-</td></tr>

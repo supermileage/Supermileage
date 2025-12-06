@@ -1,7 +1,7 @@
 "use client";
 import dynamic from "next/dynamic";
-import Footer from "tsx/Footer";
-import Title from "tsx/Title";
+import Footer from "components/Footer";
+import Title from "components/Title";
 
 // Dynamically import InstagramEmbed with SSR disabled
 const InstagramEmbed = dynamic(

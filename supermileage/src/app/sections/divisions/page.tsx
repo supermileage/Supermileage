@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-import Footer from "tsx/Footer";
-import Title from "tsx/Title";
+import Footer from "components/Footer";
+import Title from "components/Title";
 import Image from 'next/image';
 
 const Divisions = () => {

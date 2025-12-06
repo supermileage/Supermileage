@@ -1,7 +1,7 @@
 import React from 'react'
-import Footer from 'tsx/Footer';
+import Footer from 'components/Footer';
 import Timeline from 'app/sections/about/Timeline';
-import Title from 'tsx/Title';
+import Title from 'components/Title';
 
 const About = () => {
   return (

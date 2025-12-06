@@ -1,5 +1,5 @@
-import Footer from "tsx/Footer";
-import Title from "tsx/Title";
+import Footer from "components/Footer";
+import Title from "components/Title";
 import { FaHandshake, FaLeaf, FaUsers, FaMicrophone, FaAward, FaTags, FaHeart } from "react-icons/fa";
 
 const Sponsors = () => {

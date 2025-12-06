@@ -10,19 +10,17 @@
     --font-header: var(--font-figtree);
 }
 
-/* Override Bootstrap's font settings */
 body {
-    font-family: var(--font-figtree) !important;
+    font-family: var(--font-figtree);
 }
 
-/* Ensure all text elements use Figtree */
-h1, h2, h3, h4, h5, h6, p, span, a, li, button, input, textarea, select {
-    font-family: var(--font-figtree) !important;
-}
-
-/* Override Bootstrap's specific classes */
-.navbar, .nav-link, .btn, .form-control, .form-label {
-    font-family: var(--font-figtree) !important;
+@layer components {
+  .table-bordered {
+    @apply w-full border-collapse border border-gray-300;
+  }
+  .table-bordered td, .table-bordered th {
+    @apply border border-gray-300 p-2;
+  }
 }
 
 /* Rest of your existing styles */ 

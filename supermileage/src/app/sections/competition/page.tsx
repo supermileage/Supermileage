@@ -1,6 +1,6 @@
-import Footer from "tsx/Footer";
+import Footer from "components/Footer";
 import Results from "app/sections/competition/Results";
-import Title from "tsx/Title";
+import Title from "components/Title";
 
 export default function Competition() {
     return (

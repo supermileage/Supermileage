@@ -1,19 +1,19 @@
 export default function Timeline() {
     return (
-        <div className="py-12 container">
-        <div className="row">
-            <div className="col-lg-12">
-                <h2 className="section-heading text-uppercase">History</h2>
-                <h3 className="section-subheading text-muted">
+        <div className="py-12 container mx-auto px-4">
+        <div className="flex flex-wrap">
+            <div className="w-full text-center">
+                <h2 className="text-4xl font-bold uppercase">History</h2>
+                <h3 className="text-xl text-gray-500 italic font-serif my-4">
                 Established in 2001, find out more about our journey here!
                 </h3>
             </div>
             </div>
-            <div className="row">
-            <div className="col-lg-12"><br /><br /></div>
+            <div className="flex flex-wrap">
+            <div className="w-full"><br /><br /></div>
             </div>
-            <div className="row">
-            <div className="col-lg-12">
+            <div className="flex flex-wrap">
+            <div className="w-full">
                 <ul className="timeline">
                 <li className="timeline-inverted">
                     <div className="timeline-image">
