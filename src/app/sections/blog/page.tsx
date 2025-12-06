@@ -1,20 +1,24 @@
+
 "use client";
-import dynamic from "next/dynamic";
 import Footer from "components/Footer";
 import Title from "components/Title";
 
-// Dynamically import InstagramEmbed with SSR disabled
-const InstagramEmbed = dynamic(
-  () => import("react-social-media-embed").then(mod => mod.InstagramEmbed),
-  { ssr: false }
-);
 
 const Blogs = () => {
   return (
     <div>
       <Title imageSrcPath="/media/images/blog.jpg" name="BLOGS" />
-      <div style={{ display: 'flex', justifyContent: 'center' }} className="xl">
-        <InstagramEmbed url="https://www.instagram.com/p/DGwFNeApjm-/?img_index=1" style={{ width: "35%"}} />
+      <div className="flex justify-center px-4 md:px-16 xl:px-32 py-10">
+        <iframe
+          src="https://www.instagram.com/p/DNR3RxiRorP/embed"
+          width="400"
+          height="600"
+          frameBorder="0"
+          scrolling="no"
+          allowFullScreen={true}
+          style={{ borderRadius: '12px', border: 'none' }}
+          title="Instagram Post"
+        ></iframe>
       </div>
       <Footer />
     </div>
