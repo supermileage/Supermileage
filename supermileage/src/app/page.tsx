@@ -1,4 +1,3 @@
-"use client"
 import Footer from "tsx/Footer";
 import Hero from "tsx/Hero";
 import About from "tsx/About";
